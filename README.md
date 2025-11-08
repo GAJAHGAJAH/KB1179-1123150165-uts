@@ -5,7 +5,7 @@
 Nama: Dimas Prasetyo
 Nim: 1123150165
 
-Cara Menjalankan Project
+## Cara Menjalankan Project
 
 1. Clone atau download repository project ini:
    ```bash
@@ -24,5 +24,6 @@ Cara Menjalankan Project
    ```bash
    flutter run
    ```
+
 
 
