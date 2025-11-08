@@ -11,17 +11,26 @@ class Loginscreen extends StatelessWidget {
           padding: const EdgeInsets.all(20.0),
           child: Center(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 const SizedBox(height: 10),
                 const Icon(Icons.lock_outline, size: 80, color: Colors.green),
                 const SizedBox(height: 10),
-                const Text(
-                  "Selamat Datang",
-                  style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
+                Center(
+                  child: const Text(
+                    "Selamat Datang",
+                    style: TextStyle(
+                      fontSize: 24.0,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
-                const Text(
-                  "“Silakan login untuk melanjutkan”",
-                  style: TextStyle(fontSize: 12.0, color: Colors.green),
+                Center(
+                  child: const Text(
+                    "“Silakan login untuk melanjutkan”",
+                    style: TextStyle(fontSize: 12.0, color: Colors.green),
+                  ),
                 ),
                 const TextField(
                   keyboardType: TextInputType.emailAddress,
@@ -52,6 +61,25 @@ class Loginscreen extends StatelessWidget {
                     child: Text(
                       "Lupa Password",
                       style: TextStyle(fontSize: 14.0, color: Colors.blue),
+                    ),
+                  ),
+                ),
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
+                    foregroundColor: Colors.white,
+                    padding: EdgeInsets.symmetric(vertical: 16),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadiusGeometry.circular(12),
+                    ),
+                    elevation: 2,
+                  ),
+                  child: Text(
+                    "Login",
+                    style: TextStyle(
+                      fontSize: 12.0,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
