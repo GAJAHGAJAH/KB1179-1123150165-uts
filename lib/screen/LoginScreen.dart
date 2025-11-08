@@ -23,6 +23,14 @@ class Loginscreen extends StatelessWidget {
                   "“Silakan login untuk melanjutkan”",
                   style: TextStyle(fontSize: 12.0, color: Colors.green),
                 ),
+                TextField(
+                  keyboardType: TextInputType.emailAddress,
+                  decoration: InputDecoration(
+                    labelText: 'Email',
+                    hintText: 'Masukkan Email Anda',
+                    prefixIcon: Icon(Icons.email_outlined),
+                  ),
+                ),
               ],
             ),
           ),
