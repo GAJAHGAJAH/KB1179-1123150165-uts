@@ -1,3 +1,7 @@
+Screenshot
+![Screenshot Aplikasi](splashscreen1.png)
+![Screenshot Aplikasi](loginscreen1.png)
+
 Nama: Dimas Prasetyo
 Nim: 1123150165
 
@@ -20,3 +24,4 @@ Cara Menjalankan Project
    ```bash
    flutter run
    ```
+
