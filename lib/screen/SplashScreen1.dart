@@ -17,6 +17,10 @@ class Splashscreen1 extends StatelessWidget {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 color: Colors.amber,
+                image: DecorationImage(
+                  image: AssetImage("assets/images/img1.jpg"),
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
           ],
