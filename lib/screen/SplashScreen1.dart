@@ -8,9 +8,10 @@ class Splashscreen1 extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
+          SizedBox(height: 50),
           Container(
-            width: 50,
-            height: 50,
+            width: 250,
+            height: 250,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: Colors.amber,
