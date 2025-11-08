@@ -35,6 +35,36 @@ class Splashscreen1 extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            Row(
+              children: [
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.green,
+                  ),
+                ),
+                SizedBox(width: 5),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.green,
+                  ),
+                ),
+                SizedBox(width: 5),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.green,
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
