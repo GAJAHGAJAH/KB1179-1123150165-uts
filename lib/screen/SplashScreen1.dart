@@ -27,6 +27,14 @@ class Splashscreen1 extends StatelessWidget {
               "Welcome",
               style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.normal),
             ),
+            Text(
+              "“Forgot to bring your wallet when you are shoping ? “",
+              style: TextStyle(
+                fontSize: 12.0,
+                color: Colors.green,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
