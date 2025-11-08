@@ -23,6 +23,7 @@ class Splashscreen1 extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20),
             Text(
               "Welcome",
               style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.normal),
@@ -35,6 +36,7 @@ class Splashscreen1 extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            SizedBox(height: 50),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -66,6 +68,7 @@ class Splashscreen1 extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(height: 50),
             SizedBox(
               height: 40,
               width: double.infinity,
