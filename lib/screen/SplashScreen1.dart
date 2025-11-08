@@ -66,14 +66,16 @@ class Splashscreen1 extends StatelessWidget {
                 ),
               ],
             ),
-            ElevatedButton(
-              onPressed: () {
-
-              },
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-              child: Text(
-                "Continue",
-                style: TextStyle(fontSize: 14.0, color: Colors.white),
+            SizedBox(
+              height: 40,
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                child: Text(
+                  "Continue",
+                  style: TextStyle(fontSize: 14.0, color: Colors.white),
+                ),
               ),
             ),
           ],
