@@ -10,7 +10,7 @@ class Splashscreen1 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 50),
+            // SizedBox(height: 50),
             Container(
               width: 250,
               height: 250,
