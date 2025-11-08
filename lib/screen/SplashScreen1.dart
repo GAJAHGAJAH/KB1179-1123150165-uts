@@ -55,7 +55,7 @@ class Splashscreen1 extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.green,
+                    color: Colors.grey,
                   ),
                 ),
                 SizedBox(width: 5),
@@ -64,7 +64,7 @@ class Splashscreen1 extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.green,
+                    color: Colors.grey,
                   ),
                 ),
               ],
@@ -82,7 +82,9 @@ class Splashscreen1 extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => Splashscreen2()),
                     );
                   },
-                  style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.green,
+                  ),
                   child: Text(
                     "Continue",
                     style: TextStyle(fontSize: 14.0, color: Colors.white),
