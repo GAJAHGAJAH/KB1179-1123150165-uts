@@ -45,6 +45,16 @@ class Loginscreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                Align(
+                  alignment: Alignment.centerRight,
+                  child: TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Lupa Password",
+                      style: TextStyle(fontSize: 14.0, color: Colors.blue),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
