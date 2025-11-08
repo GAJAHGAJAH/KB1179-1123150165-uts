@@ -23,6 +23,10 @@ class Splashscreen1 extends StatelessWidget {
                 ),
               ),
             ),
+            Text(
+              "Welcome",
+              style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.normal),
+            ),
           ],
         ),
       ),
