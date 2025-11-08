@@ -36,6 +36,7 @@ class Splashscreen1 extends StatelessWidget {
               ),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
                   width: 10,
